@@ -1,1 +1,3 @@
 # HomeWork2
+The two functions in the Homework file are useful to sort a group of numbers, using two different methods. The function QuickSort takes a number, called Pivot, and then checks if the numbers are smaller or bigger than the Pivot, moving them accordingly, in order to create a sorted list. In the case of the MergeSort function, the list of numbers is divided in two groups, and then each of them is divided in two and so on until we get one element per group. At this point each number can be compared to the next until we get a sorted list.
+Thanks to the timeit function we can then check which of the two methods takes less time. QuickSort will be faster than the MergeSort function and it takes also less space in the memory.
